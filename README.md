@@ -1,8 +1,8 @@
-### 📦 SNS 프로젝트
+### SNS 프로젝트
 
 ---
 
-# 🚀 프로젝트 초기 세팅
+# 프로젝트 초기 세팅
 
 ## 1. 프로젝트 생성
 
@@ -20,7 +20,7 @@ cd 프로젝트명
 
 ---
 
-# 🎨 TailwindCSS 설치
+# TailwindCSS 설치
 
 ## 1. TailwindCSS 및 Vite 플러그인 설치
 
@@ -56,7 +56,7 @@ export default defineConfig({
 
 ---
 
-# ✨ Prettier + TailwindCSS 정렬 설정
+# Prettier + TailwindCSS 정렬 설정
 
 ## 1. Prettier 및 Tailwind Plugin 설치
 
@@ -80,7 +80,7 @@ npm install -D prettier prettier-plugin-tailwindcss
 
 ---
 
-# 🧩 shadcn/ui 설치
+# shadcn/ui 설치
 
 ## shadcn/ui를 사용하는 이유
 
