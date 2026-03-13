@@ -42,7 +42,7 @@ function Sample() {
 
       <Popover>
         <PopoverTrigger asChild>
-          {/* 안에 자식으로 컴포넌트를 사용하고싶을땐 aschild를 사용안하면 작동이되긴하지만  button컴포넌트가 한번더 랜더링 된다.*/}
+          {/* 안에 자식으로 컴포넌트를 사용하고싶을땐 aschild를 사용안하면 작동이되긴하지만 button컴포넌트가 한번더 랜더링 된다.*/}
           <Button>OPEN</Button>
         </PopoverTrigger>
         <PopoverContent>content!</PopoverContent>
