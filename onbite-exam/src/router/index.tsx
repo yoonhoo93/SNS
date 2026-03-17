@@ -4,8 +4,9 @@ import Counter from "@/pages/Counter";
 import TodoListPage from "@/pages/todo/TodoListPage";
 import SignIn from "@/pages/SignIn";
 import SignUp from "@/pages/SignUp";
+import TodoDetailPage from "@/pages/todo/TodoDetailPage";
 
-function AuthLayout() {
+export function AuthLayout() {
   return (
     <div>
       <header>Auth!</header>
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
   {
     path: "/todoList",
     element: <TodoListPage />,
+  },
+  {
+    path: "/todolist/:id",
+    element: <TodoDetailPage />,
   },
   {
     path: "/signin",
